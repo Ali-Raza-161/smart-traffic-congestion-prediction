@@ -1,0 +1,43 @@
+{
+  "dataset": "simulated_only",
+  "rows": 12042,
+  "train_rows": 9633,
+  "test_rows": 2409,
+  "classifier_accuracy": 0.846,
+  "confusion_matrix_labels": [
+    "Low",
+    "Moderate",
+    "High",
+    "Severe"
+  ],
+  "confusion_matrix": [
+    [
+      749,
+      102,
+      0,
+      0
+    ],
+    [
+      18,
+      1027,
+      98,
+      2
+    ],
+    [
+      0,
+      54,
+      185,
+      65
+    ],
+    [
+      0,
+      0,
+      32,
+      77
+    ]
+  ],
+  "regressor_mae": 6.04,
+  "regressor_rmse": 7.95,
+  "horizon_minutes": 15,
+  "note": "Metrics are on synthetic simulated data only. They do not describe real traffic."
+}
